@@ -1,0 +1,8 @@
+<catch> => <or>[< <or> ><or>]
+<or> => <concat> [+ <or>}
+<concat> => <rep>[<concat>]
+<rep> => <term>[*]
+<term> => <char> | <nested>
+<nested> => (<or>)
+<char> => ?a - Ö? |
+          "."
